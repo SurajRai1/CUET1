@@ -1,3 +1,4 @@
+
 let scores;
 const questionsContainer = document.getElementById('questions-container');
 const timerElement = document.getElementById('timer');
@@ -11,8 +12,8 @@ const subjects = {
     English: 3,
     'Political Science': 4,
     Biology: 5,
-    Chemistry: 6, // Added Chemistry
-    Physics: 7,   // Added Physics
+    Chemistry: 6,
+    Physics: 7,
 };
 
 const questionsPerSubject = 10;
@@ -429,7 +430,7 @@ function displayQuestions() {
 
             const optionLi = document.createElement('li');
             optionLi.classList.add('option'); // Add the "option" class for styling
-            optionLi.onclick = function() {
+            optionLi.onclick = function () {
                 selectOption(this); // Call the selectOption function on click
             };
 
@@ -449,7 +450,7 @@ function displayQuestions() {
 function selectOption(option) {
     // Remove the "selected" class from all options in the same question
     const questionNumber = option.querySelector('input').name.substring(1);
-    document.querySelectorAll(`input[name="q${questionNumber}"]`).forEach(function(opt) {
+    document.querySelectorAll(`input[name="q${questionNumber}"]`).forEach(function (opt) {
         opt.parentElement.classList.remove('selected');
     });
 
@@ -509,12 +510,11 @@ function calculateScore() {
     }
 
     const scorePercentage = (correctAnswers / totalQuestions) * 100;
-    // alert(scorePercentage+"% " +correctAnswers+ ""+totalQuestions)
 
     scores = {
         "Percentage": scorePercentage,
         "Correct Answers": correctAnswers,
-        "Wrong Answers":totalQuestions-correctAnswers,
+        "Wrong Answers": totalQuestions - correctAnswers,
         "Total Questions": totalQuestions,
     };
 }
