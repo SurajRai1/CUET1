@@ -1,29 +1,13 @@
-document.addEventListener('DOMContentLoaded', function () {
-    const urlParams = new URLSearchParams(window.location.search);
-    const scoresParameter = urlParams.get('scores');
-    scores = JSON.parse(decodeURIComponent(scoresParameter));
-
-    // Display the score
-    document.getElementById('percentage').textContent = `${scores.Percentage}%`;
-    document.getElementById('correct').textContent = `${scores['Correct Answers']}`;
-    document.getElementById('wrong').textContent = `${scores['Wrong Answers']}`;
-    document.getElementById('total').textContent = `${scores['Total Questions']}`;
-  
-    displayAnswers();
-
-    // Add "Back to Home" button
-    const backButton = document.getElementById('backButton');
-    backButton.addEventListener('click', goBack);
-});
-
 function getAnswerCounts() {
     let correctCount = 0;
     let incorrectCount = 0;
 
-    // Assuming totalQuestions is a global variable or defined elsewhere in your code
+    const questionsForSubject = questionsData[subjectDropdown.value];
+    const totalQuestions = questionsForSubject.length;
+
     for (let i = 1; i <= totalQuestions; i++) {
         const selectedOption = document.querySelector(`input[name="q${i}"]:checked`);
-        const questionData = questionsData[subjectDropdown.value][i - 1];
+        const questionData = questionsForSubject[i - 1];
 
         if (selectedOption) {
             const isCorrect = selectedOption.value === questionData.correctAnswer;
@@ -43,11 +27,13 @@ function getAnswerCounts() {
 
 function displayAnswers() {
     const answersList = document.getElementById('answers-list');
+    const questionsForSubject = questionsData[subjectDropdown.value];
+    const totalQuestions = questionsForSubject.length;
 
     // Iterate through submitted answers (you may need to adapt this based on your data structure)
     for (let i = 1; i <= totalQuestions; i++) {
         const selectedOption = document.querySelector(`input[name="q${i}"]:checked`);
-        const questionData = questionsData[subjectDropdown.value][i - 1];
+        const questionData = questionsForSubject[i - 1];
 
         const answerItem = document.createElement('li');
         answerItem.innerHTML = `<p>${i}. ${questionData.question}</p>`;
@@ -69,10 +55,4 @@ function displayAnswers() {
 
         answersList.appendChild(answerItem);
     }
-}
-
-function goBack() {
-    // Navigate back to the home page
-    window.location.href = '../index.html';
-    // alert(scores.Percentage)
 }
