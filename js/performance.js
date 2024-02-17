@@ -1,5 +1,3 @@
-
-
 document.addEventListener('DOMContentLoaded', function () {
     const urlParams = new URLSearchParams(window.location.search);
     const scoresParameter = urlParams.get('scores');
@@ -22,6 +20,7 @@ function getAnswerCounts() {
     let correctCount = 0;
     let incorrectCount = 0;
 
+    // Assuming totalQuestions is a global variable or defined elsewhere in your code
     for (let i = 1; i <= totalQuestions; i++) {
         const selectedOption = document.querySelector(`input[name="q${i}"]:checked`);
         const questionData = questionsData[subjectDropdown.value][i - 1];
@@ -40,7 +39,7 @@ function getAnswerCounts() {
     }
 
     return { correctCount, incorrectCount };
-};
+}
 
 function displayAnswers() {
     const answersList = document.getElementById('answers-list');
@@ -70,12 +69,10 @@ function displayAnswers() {
 
         answersList.appendChild(answerItem);
     }
-};
-
-
+}
 
 function goBack() {
     // Navigate back to the home page
     window.location.href = '../index.html';
     // alert(scores.Percentage)
-};
+}
