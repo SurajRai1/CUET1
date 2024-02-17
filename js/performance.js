@@ -9,14 +9,17 @@ document.addEventListener('DOMContentLoaded', function () {
     document.getElementById('wrong').textContent = `${scores['Wrong Answers']}`;
     document.getElementById('total').textContent = `${scores['Total Questions']}`;
 
-    displayAnswers();
+    // Get total questions from scores or another source
+    const totalQuestions = scores['Total Questions'];
+
+    displayAnswers(totalQuestions);
 
     // Add "Back to Home" button
     const backButton = document.getElementById('backButton');
     backButton.addEventListener('click', goBack);
 });
 
-function getAnswerCounts() {
+function getAnswerCounts(totalQuestions) {
     let correctCount = 0;
     let incorrectCount = 0;
 
@@ -40,7 +43,7 @@ function getAnswerCounts() {
     return { correctCount, incorrectCount };
 }
 
-function displayAnswers() {
+function displayAnswers(totalQuestions) {
     const answersList = document.getElementById('answers-list');
 
     // Iterate through submitted answers (you may need to adapt this based on your data structure)
