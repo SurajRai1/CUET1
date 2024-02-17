@@ -1,25 +1,27 @@
-// script.js
 let scores;
 const questionsContainer = document.getElementById('questions-container');
 const timerElement = document.getElementById('timer');
 const subjectDropdown = document.getElementById('subject');
 let timer;
 
+// Define subjects and their corresponding IDs
 const subjects = {
     Economics: 1,
     History: 2,
     English: 3,
     'Political Science': 4,
     Biology: 5,
+    Chemistry: 6, // Added Chemistry
+    Physics: 7,   // Added Physics
 };
 
 const questionsPerSubject = 10;
 const timeLimit = 20 * 60; // 20 minutes in seconds
 
+const questionsData = {
     // ... (your existing questions data)
 
-    const questionsData = {
-        Economics: [
+    Economics: [
             {
                 question: 'What is the primary goal of microeconomics?',
                 options: ['A. Maximize profits', 'B. Minimize costs', 'C. Maximize utility', 'D. Equal distribution of wealth'],
@@ -287,9 +289,114 @@ const timeLimit = 20 * 60; // 20 minutes in seconds
                 correctAnswer: 'B',
             },
         ],
-        // Add more questions for Biology...
-    };
-    
+
+        Chemistry: [
+            {
+                question: 'What is the atomic number of carbon?',
+                options: ['A. 6', 'B. 8', 'C. 12', 'D. 14'],
+                correctAnswer: 'A',
+            },
+            {
+                question: 'Which gas is commonly known as laughing gas?',
+                options: ['A. Oxygen', 'B. Nitrous oxide', 'C. Carbon dioxide', 'D. Helium'],
+                correctAnswer: 'B',
+            },
+            {
+                question: 'What is the chemical symbol for gold?',
+                options: ['A. Au', 'B. Ag', 'C. Fe', 'D. Cu'],
+                correctAnswer: 'A',
+            },
+            {
+                question: 'In a chemical reaction, what do the reactants produce?',
+                options: ['A. Heat', 'B. Light', 'C. Products', 'D. Gases'],
+                correctAnswer: 'C',
+            },
+            {
+                question: 'What is the pH of pure water?',
+                options: ['A. 5', 'B. 7', 'C. 10', 'D. 14'],
+                correctAnswer: 'B',
+            },
+            {
+                question: 'Which element has the chemical symbol "O"?',
+                options: ['A. Oxygen', 'B. Osmium', 'C. Oganesson', 'D. Osmium'],
+                correctAnswer: 'A',
+            },
+            {
+                question: 'What is the chemical formula for water?',
+                options: ['A. H2O', 'B. CO2', 'C. O2', 'D. NaCl'],
+                correctAnswer: 'A',
+            },
+            {
+                question: 'Which gas is produced during photosynthesis?',
+                options: ['A. Oxygen', 'B. Carbon dioxide', 'C. Nitrogen', 'D. Hydrogen'],
+                correctAnswer: 'A',
+            },
+            {
+                question: 'What is the most abundant gas in Earth\'s atmosphere?',
+                options: ['A. Oxygen', 'B. Nitrogen', 'C. Carbon dioxide', 'D. Hydrogen'],
+                correctAnswer: 'B',
+            },
+            {
+                question: 'What is the chemical symbol for sodium?',
+                options: ['A. Na', 'B. Sn', 'C. Mg', 'D. Ca'],
+                correctAnswer: 'A',
+            },
+        ],
+
+        Physics: [
+            {
+                question: 'What is the formula for calculating force?',
+                options: ['A. F = ma', 'B. E = mc^2', 'C. P = mv', 'D. F = mb'],
+                correctAnswer: 'A',
+            },
+            {
+                question: 'What is the SI unit of electric current?',
+                options: ['A. Volt', 'B. Ampere', 'C. Ohm', 'D. Watt'],
+                correctAnswer: 'B',
+            },
+            {
+                question: 'Which law of motion states "For every action, there is an equal and opposite reaction"?',
+                options: ['A. Newton\'s First Law', 'B. Newton\'s Second Law', 'C. Newton\'s Third Law', 'D. Law of Inertia'],
+                correctAnswer: 'C',
+            },
+            {
+                question: 'What is the speed of light in a vacuum?',
+                options: ['A. 300,000 km/s', 'B. 150,000 km/s', 'C. 450,000 km/s', 'D. 600,000 km/s'],
+                correctAnswer: 'A',
+            },
+            {
+                question: 'What is the unit of measurement for frequency?',
+                options: ['A. Hertz', 'B. Watt', 'C. Newton', 'D. Joule'],
+                correctAnswer: 'A',
+            },
+            {
+                question: 'Which type of energy does a moving car have?',
+                options: ['A. Kinetic energy', 'B. Potential energy', 'C. Thermal energy', 'D. Chemical energy'],
+                correctAnswer: 'A',
+            },
+            {
+                question: 'What is the SI unit of power?',
+                options: ['A. Watt', 'B. Joule', 'C. Volt', 'D. Ampere'],
+                correctAnswer: 'A',
+            },
+            {
+                question: 'What is the law of conservation of energy?',
+                options: ['A. Energy cannot be created or destroyed', 'B. Energy can only be created', 'C. Energy can only be destroyed', 'D. Energy is always decreasing'],
+                correctAnswer: 'A',
+            },
+            {
+                question: 'What is the formula for calculating kinetic energy?',
+                options: ['A. KE = 1/2 * mv^2', 'B. KE = mgh', 'C. KE = Fd', 'D. KE = PE + W'],
+                correctAnswer: 'A',
+            },
+            {
+                question: 'What is the acceleration due to gravity on Earth?',
+                options: ['A. 9.8 m/s^2', 'B. 5.0 m/s^2', 'C. 12.0 m/s^2', 'D. 7.5 m/s^2'],
+                correctAnswer: 'A',
+            },
+        ],    
+
+};
 
 function startExam() {
     clearInterval(timer);
@@ -297,7 +404,6 @@ function startExam() {
     document.getElementsByClassName('subject-form')[0].style.display = 'none';
     displayQuestions();
     startTimer();
-
 }
 
 function displayQuestions() {
@@ -308,33 +414,47 @@ function displayQuestions() {
     for (let i = 0; i < questionsPerSubject; i++) {
         const questionNumber = i + 1; // Start numbering from 1
         const questionData = questionsData[selectedSubject][i];
-    
+
         const questionDiv = document.createElement('div');
         questionDiv.classList.add('question');
         questionDiv.innerHTML = `<p>${questionNumber}. ${questionData.question}</p>`;
-    
+
         const optionsList = document.createElement('ul');
         optionsList.classList.add('options');
-    
+
         // Add radio options (A, B, C, D)
         for (let j = 0; j < 4; j++) {
             const optionLabel = String.fromCharCode(65 + j);
             const optionText = questionData.options[j];
-    
+
             const optionLi = document.createElement('li');
+            optionLi.classList.add('option'); // Add the "option" class for styling
+            optionLi.onclick = function() {
+                selectOption(this); // Call the selectOption function on click
+            };
+
             optionLi.innerHTML = `
                 <input type="radio" name="q${questionNumber}" value="${optionLabel}" id="q${questionNumber}${optionLabel}">
                 <label for="q${questionNumber}${optionLabel}">${optionText}</label>
             `;
-    
+
             optionsList.appendChild(optionLi);
         }
-    
+
         questionDiv.appendChild(optionsList);
         questionsContainer.appendChild(questionDiv);
     }
-    
-    
+}
+
+function selectOption(option) {
+    // Remove the "selected" class from all options in the same question
+    const questionNumber = option.querySelector('input').name.substring(1);
+    document.querySelectorAll(`input[name="q${questionNumber}"]`).forEach(function(opt) {
+        opt.parentElement.classList.remove('selected');
+    });
+
+    // Add the "selected" class to the clicked option
+    option.classList.add('selected');
 }
 
 function startTimer() {
@@ -370,32 +490,31 @@ function submitExam() {
 function calculateScore() {
     const totalQuestions = questionsPerSubject;
     let correctAnswers = 0;
-  
+
     for (let i = 1; i <= totalQuestions; i++) {
-      const selectedOption = document.querySelector(
-        `input[name="q${i}"]:checked`
-      );
-  
-      if (selectedOption) {
-        const questionData = questionsData[subjectDropdown.value][i - 1];
-        const isCorrect = selectedOption.value === questionData.correctAnswer;
-  
-        if (isCorrect) {
-          correctAnswers++;
+        const selectedOption = document.querySelector(
+            `input[name="q${i}"]:checked`
+        );
+
+        if (selectedOption) {
+            const questionData = questionsData[subjectDropdown.value][i - 1];
+            const isCorrect = selectedOption.value === questionData.correctAnswer;
+
+            if (isCorrect) {
+                correctAnswers++;
+            }
+
+            selectedOption.disabled = true; // Disable the selected option
         }
-  
-        selectedOption.disabled = true; // Disable the selected option
-      }
     }
-  
+
     const scorePercentage = (correctAnswers / totalQuestions) * 100;
     // alert(scorePercentage+"% " +correctAnswers+ ""+totalQuestions)
-  
+
     scores = {
-      "Percentage": scorePercentage,
-      "Correct Answers": correctAnswers,
-      "Wrong Answers":totalQuestions-correctAnswers,
-      "Total Questions": totalQuestions,
+        "Percentage": scorePercentage,
+        "Correct Answers": correctAnswers,
+        "Wrong Answers":totalQuestions-correctAnswers,
+        "Total Questions": totalQuestions,
     };
-    
-  };
+}
