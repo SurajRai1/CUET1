@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
     document.getElementById('correct').textContent = `${scores['Correct Answers']}`;
     document.getElementById('wrong').textContent = `${scores['Wrong Answers']}`;
     document.getElementById('total').textContent = `${scores['Total Questions']}`;
-  
+
     displayAnswers();
 
     // Add "Back to Home" button
@@ -38,7 +38,7 @@ function getAnswerCounts() {
     }
 
     return { correctCount, incorrectCount };
-};
+}
 
 function displayAnswers() {
     const answersList = document.getElementById('answers-list');
@@ -68,12 +68,9 @@ function displayAnswers() {
 
         answersList.appendChild(answerItem);
     }
-};
-
-
+}
 
 function goBack() {
     // Navigate back to the home page
     window.location.href = '../index.html';
-    // alert(scores.Percentage)
-};
+}
