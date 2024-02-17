@@ -402,12 +402,6 @@ function startExam() {
     clearInterval(timer);
     document.getElementsByClassName('start-button')[0].style.display = 'none';
     document.getElementsByClassName('subject-form')[0].style.display = 'none';
-
-    // Add the following lines
-    const selectedSubject = subjectDropdown.value;
-    console.log(`Selected Subject: ${selectedSubject}`);
-    console.log(`Total Questions: ${questionsData[selectedSubject].length}`);
-
     displayQuestions();
     startTimer();
 }
