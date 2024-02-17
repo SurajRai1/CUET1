@@ -1,3 +1,5 @@
+
+
 document.addEventListener('DOMContentLoaded', function () {
     const urlParams = new URLSearchParams(window.location.search);
     const scoresParameter = urlParams.get('scores');
@@ -10,10 +12,6 @@ document.addEventListener('DOMContentLoaded', function () {
     document.getElementById('total').textContent = `${scores['Total Questions']}`;
   
     displayAnswers();
-
-    // Call the function to get answer counts
-    const { correctCount, incorrectCount } = getAnswerCounts();
-    // Do something with correctCount and incorrectCount if needed
 
     // Add "Back to Home" button
     const backButton = document.getElementById('backButton');
