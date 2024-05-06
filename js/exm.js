@@ -260,10 +260,11 @@ const questionsData = {
         correctAnswer: 'D',
     },
     {
-        question: 'What is the concept that refers to the tendency to use one's own culture and values as the standard for judging the practices of others?',
-        options: ['A. Ethnocentrism', 'B. Cultural relativism', 'C. Cultural diffusion', 'D. Cultural assimilation'],
-        correctAnswer: 'A',
+        question: 'What term refers to the process by which individuals or groups are excluded from full participation in society?',
+        options: ['A. Socialization', 'B. Social exclusion', 'C. Social stratification', 'D. Social cohesion'],
+        correctAnswer: 'B',
     },
+
     {
         question: 'Which sociologist introduced the idea of the "iron cage" of rationality in modern society?',
         options: ['A. Karl Marx', 'B. Max Weber', 'C. Émile Durkheim', 'D. Talcott Parsons'],
@@ -280,10 +281,11 @@ const questionsData = {
         correctAnswer: 'D',
     },
     {
-        question: 'What is the term for the process of changing one's beliefs, behaviors, or cultural traits to fit in with a dominant group?',
-        options: ['A. Assimilation', 'B. Cultural relativism', 'C. Cultural diffusion', 'D. Cultural accommodation'],
-        correctAnswer: 'A',
+        question: 'Which sociological perspective emphasizes the importance of symbols and language in shaping social life?',
+        options: ['A. Functionalism', 'B. Conflict theory', 'C. Symbolic interactionism', 'D. Feminist theory'],
+        correctAnswer: 'C',
     },
+    
     {
         question: 'Which sociologist is known for his work on the theory of social capital?',
         options: ['A. Karl Marx', 'B. Pierre Bourdieu', 'C. Max Weber', 'D. Michel Foucault'],
