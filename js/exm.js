@@ -11,7 +11,7 @@ const subjects = {
     History: 2,
     English: 3,
     'Political Science': 4,
-    Biology: 5,
+    Sociology: 5,
     Chemistry: 6,
     Physics: 7,
 };
