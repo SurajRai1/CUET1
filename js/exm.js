@@ -5,6 +5,8 @@ const timerElement = document.getElementById('timer');
 const subjectDropdown = document.getElementById('subject');
 let timer;
 
+
+
 // Define subjects and their corresponding IDs
 const subjects = {
     Economics: 1,
@@ -407,6 +409,7 @@ function startExam() {
     clearInterval(timer);
     document.getElementsByClassName('start-button')[0].style.display = 'none';
     document.getElementsByClassName('subject-form')[0].style.display = 'none';
+    document.getElementsByClassName('submit-button')[0].style.display = 'block';
     displayQuestions();
     startTimer();
 }
@@ -417,7 +420,7 @@ function displayQuestions() {
     questionsContainer.innerHTML = ''; // Clear previous questions
 
     for (let i = 0; i < questionsPerSubject; i++) {
-        const questionNumber = i + 1; // Start numbering from 1
+        const questionNumber = i+1; // Start numbering from 1
         const questionData = questionsData[selectedSubject][i];
 
         const questionDiv = document.createElement('div');
@@ -427,7 +430,6 @@ function displayQuestions() {
         const optionsList = document.createElement('ul');
         optionsList.classList.add('options');
 
-        // Add radio options (A, B, C, D)
         for (let j = 0; j < 4; j++) {
             const optionLabel = String.fromCharCode(65 + j);
             const optionText = questionData.options[j];
@@ -441,6 +443,7 @@ function displayQuestions() {
             optionLi.innerHTML = `
                 <input type="radio" name="q${questionNumber}" value="${optionLabel}" id="q${questionNumber}${optionLabel}">
                 <label for="q${questionNumber}${optionLabel}">${optionText}</label>
+            
             `;
 
             optionsList.appendChild(optionLi);
@@ -452,14 +455,20 @@ function displayQuestions() {
 }
 
 function selectOption(option) {
+    const selectedOption = option.querySelector('input[type="radio"]');
+    
+    // If the selected option is already checked, return
+    if (selectedOption.checked) return;
+
     // Remove the "selected" class from all options in the same question
-    const questionNumber = option.querySelector('input').name.substring(1);
+    const questionNumber = selectedOption.name.substring(1);
     document.querySelectorAll(`input[name="q${questionNumber}"]`).forEach(function (opt) {
         opt.parentElement.classList.remove('selected');
     });
 
     // Add the "selected" class to the clicked option
     option.classList.add('selected');
+    selectedOption.checked = true; // Manually check the selected option
 }
 
 function startTimer() {
@@ -490,35 +499,42 @@ function submitExam() {
     calculateScore();
     const scoresParameter = encodeURIComponent(JSON.stringify(scores));
     window.location.href = "../html/performance.html?scores=" + scoresParameter;
+    console.log(scores);
 }
 
 function calculateScore() {
     const totalQuestions = questionsPerSubject;
     let correctAnswers = 0;
-
+    let attempted=0;
     for (let i = 1; i <= totalQuestions; i++) {
-        const selectedOption = document.querySelector(
-            `input[name="q${i}"]:checked`
-        );
+
+        const radioButtons = document.querySelectorAll(`input[name="q${i}"]`);
+        let selectedOption;
+        radioButtons.forEach(radioButton => {
+            if (radioButton.checked) {
+                selectedOption = radioButton;
+            }
+        });
+        
 
         if (selectedOption) {
-            const questionData = questionsData[subjectDropdown.value][i - 1];
+            const questionData = questionsData[subjectDropdown.value][i-1];
             const isCorrect = selectedOption.value === questionData.correctAnswer;
-
+            // console.log ("Ansers Verify",i,"--> correct ans is: ",questionData.correctAnswer,"selected: ",selectedOption.value,"flag",isCorrect)
             if (isCorrect) {
                 correctAnswers++;
             }
-
+            attempted+=1;
             selectedOption.disabled = true; // Disable the selected option
         }
     }
-
+    console.log(totalQuestions, correctAnswers)
     const scorePercentage = (correctAnswers / totalQuestions) * 100;
-
     scores = {
         "Percentage": scorePercentage,
         "Correct Answers": correctAnswers,
-        "Wrong Answers": totalQuestions - correctAnswers,
         "Total Questions": totalQuestions,
+        "Attempted Questions":attempted
     };
+
 }
