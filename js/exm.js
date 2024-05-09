@@ -14,11 +14,9 @@ const subjects = {
     English: 3,
     'Political Science': 4,
     Sociology: 5,
-    Chemistry: 6,
-    Physics: 7,
 };
 
-const questionsPerSubject = 10;
+const questionsPerSubject = 50;
 const timeLimit = 20 * 60; // 20 minutes in seconds
 
 const questionsData = {
