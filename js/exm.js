@@ -75,6 +75,258 @@ const questionsData = {
                 options: ['A. Monetary policy', 'B. Supply-side economics', 'C. Expansionary fiscal policy', 'D. Contractionary fiscal policy'],
                 correctAnswer: 'C',
             },
+
+        {
+        question: 'What does the term "opportunity cost" refer to in economics?',
+        options: ['A. The cost of purchasing opportunities', 'B. The value of the next best alternative foregone', 'C. The total cost of production', 'D. The cost of hiring new opportunities'],
+        correctAnswer: 'B',
+    },
+    {
+        question: 'Which economic theory proposes that individuals and firms act in their own self-interest?',
+        options: ['A. Mercantilism', 'B. Keynesian economics', 'C. Neoclassical economics', 'D. Behavioral economics'],
+        correctAnswer: 'C',
+    },
+    {
+        question: 'What is the main function of the World Bank?',
+        options: ['A. Providing financial assistance to developing countries', 'B. Regulating international trade agreements', 'C. Setting global interest rates', 'D. Facilitating diplomatic relations between nations'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'Who is credited with developing the theory of comparative advantage?',
+        options: ['A. Adam Smith', 'B. David Ricardo', 'C. John Maynard Keynes', 'D. Milton Friedman'],
+        correctAnswer: 'B',
+    },
+    {
+        question: 'What is the term for a situation where one party in an economic transaction has more information than the other party?',
+        options: ['A. Perfect competition', 'B. Monopoly', 'C. Information asymmetry', 'D. Cartel'],
+        correctAnswer: 'C',
+    },
+    {
+        question: 'Which economic concept refers to the increase in the general price level of goods and services in an economy over a period of time?',
+        options: ['A. Inflation', 'B. Deflation', 'C. Recession', 'D. Stagflation'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'In economics, what does the term "elasticity" measure?',
+        options: ['A. The responsiveness of quantity demanded to changes in price', 'B. The rate of economic growth', 'C. The level of government intervention in the economy', 'D. The stability of financial markets'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'Which of the following is NOT considered a factor of production in classical economics?',
+        options: ['A. Land', 'B. Labor', 'C. Money', 'D. Capital'],
+        correctAnswer: 'C',
+    },
+    {
+        question: 'What does the term "monetary policy" refer to?',
+        options: ['A. Government policies related to taxation', 'B. Policies aimed at controlling the money supply and interest rates', 'C. International trade agreements', 'D. Government regulation of business practices'],
+        correctAnswer: 'B',
+    },
+    {
+        question: 'Which economist is associated with the theory of "rational expectations"?',
+        options: ['A. John Maynard Keynes', 'B. Friedrich Hayek', 'C. Milton Friedman', 'D. Paul Krugman'],
+        correctAnswer: 'C',
+    },
+{
+        question: 'What is the term for a market structure characterized by a large number of sellers and buyers, with no single firm having control over price?',
+        options: ['A. Monopoly', 'B. Oligopoly', 'C. Monopolistic competition', 'D. Perfect competition'],
+        correctAnswer: 'D',
+    },
+    {
+        question: 'Which economic concept refers to the total market value of all final goods and services produced within a country in a given period of time?',
+        options: ['A. Gross National Product (GNP)', 'B. Gross Domestic Product (GDP)', 'C. Net National Product (NNP)', 'D. National Income'],
+        correctAnswer: 'B',
+    },
+    {
+        question: 'What is the term for a sustained decrease in the general price level of goods and services in an economy?',
+        options: ['A. Inflation', 'B. Deflation', 'C. Stagflation', 'D. Hyperinflation'],
+        correctAnswer: 'B',
+    },
+    {
+        question: 'Which of the following is NOT a characteristic of a traditional economy?',
+        options: ['A. Economic decisions are based on customs and traditions', 'B. Little room for innovation and change', 'C. Government control over economic decisions', 'D. Economic activities are often agriculture-based'],
+        correctAnswer: 'C',
+    },
+    {
+        question: 'What is the term for the study of how individuals, businesses, and governments allocate resources to satisfy unlimited wants and needs?',
+        options: ['A. Microeconomics', 'B. Macroeconomics', 'C. Econometrics', 'D. Behavioral economics'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'Which economic system is characterized by private ownership of resources and decentralized decision-making?',
+        options: ['A. Command economy', 'B. Mixed economy', 'C. Free market economy', 'D. Socialist economy'],
+        correctAnswer: 'C',
+    },
+    {
+        question: 'What is the term for the maximum output that an economy can produce with its existing resources and technology?',
+        options: ['A. Gross Domestic Product (GDP)', 'B. Aggregate demand', 'C. Potential GDP', 'D. Real GDP'],
+        correctAnswer: 'C',
+    },
+    {
+        question: 'Who developed the concept of the "invisible hand" in economics?',
+        options: ['A. John Maynard Keynes', 'B. Adam Smith', 'C. Karl Marx', 'D. Friedrich Hayek'],
+        correctAnswer: 'B',
+    },
+    {
+        question: 'What is the term for the period of economic decline characterized by falling output and employment?',
+        options: ['A. Depression', 'B. Recession', 'C. Expansion', 'D. Recovery'],
+        correctAnswer: 'B',
+    },
+    {
+        question: 'Which of the following is NOT a factor of production?',
+        options: ['A. Labor', 'B. Capital', 'C. Money', 'D. Entrepreneurship'],
+        correctAnswer: 'C',
+    },
+{
+        question: 'What is the term for the percentage change in the quantity demanded of a good in response to a one percent change in its price?',
+        options: ['A. Elasticity of demand', 'B. Elasticity of supply', 'C. Cross-price elasticity', 'D. Income elasticity'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'Which of the following is an example of a regressive tax?',
+        options: ['A. Sales tax', 'B. Progressive income tax', 'C. Corporate income tax', 'D. Property tax'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'What is the term for a situation where a single producer or seller controls the entire supply of a product or service?',
+        options: ['A. Oligopoly', 'B. Monopoly', 'C. Monopsony', 'D. Perfect competition'],
+        correctAnswer: 'B',
+    },
+    {
+        question: 'In economics, what does the term "externality" refer to?',
+        options: ['A. The difference between social and private costs', 'B. The cost of production', 'C. The total value of goods and services produced in a country', 'D. The profit earned by a firm'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'What is the term for a tax that takes a larger percentage of income from high-income earners than from low-income earners?',
+        options: ['A. Progressive tax', 'B. Regressive tax', 'C. Proportional tax', 'D. Excise tax'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'Which of the following is NOT a characteristic of monopolistic competition?',
+        options: ['A. Many sellers', 'B. Product differentiation', 'C. Price taker', 'D. Easy entry and exit'],
+        correctAnswer: 'C',
+    },
+    {
+        question: 'What does the term "fiscal policy" refer to in economics?',
+        options: ['A. Government policies related to the money supply', 'B. Government policies related to taxation and spending', 'C. Regulation of financial institutions', 'D. Policies aimed at controlling inflation'],
+        correctAnswer: 'B',
+    },
+    {
+        question: 'Who is known as the "father of modern economics"?',
+        options: ['A. Adam Smith', 'B. John Maynard Keynes', 'C. Karl Marx', 'D. Milton Friedman'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'What is the term for a situation where the quantity demanded exceeds the quantity supplied at a given price?',
+        options: ['A. Surplus', 'B. Shortage', 'C. Equilibrium', 'D. Elasticity'],
+        correctAnswer: 'B',
+    },
+    {
+        question: 'Which of the following is NOT a component of Gross Domestic Product (GDP)?',
+        options: ['A. Consumption', 'B. Investment', 'C. Government spending', 'D. Imports'],
+        correctAnswer: 'D',
+    },
+{
+        question: 'What is the term for the measure of responsiveness of the quantity demanded of a good to a change in consumer income?',
+        options: ['A. Price elasticity of demand', 'B. Cross-price elasticity', 'C. Income elasticity of demand', 'D. Price elasticity of supply'],
+        correctAnswer: 'C',
+    },
+    {
+        question: 'Which of the following is NOT a determinant of demand?',
+        options: ['A. Income', 'B. Price of substitute goods', 'C. Price of complementary goods', 'D. Cost of production'],
+        correctAnswer: 'D',
+    },
+    {
+        question: 'In economics, what is the term for a cost that has already been incurred and cannot be recovered?',
+        options: ['A. Explicit cost', 'B. Implicit cost', 'C. Sunk cost', 'D. Variable cost'],
+        correctAnswer: 'C',
+    },
+    {
+        question: 'Which of the following is NOT a characteristic of a command economy?',
+        options: ['A. Centralized decision-making', 'B. Private ownership of resources', 'C. Government control over production', 'D. Lack of consumer choice'],
+        correctAnswer: 'B',
+    },
+    {
+        question: 'What is the term for the total quantity of goods and services demanded by households, firms, and the government in an economy?',
+        options: ['A. Aggregate demand', 'B. Aggregate supply', 'C. Macroeconomic equilibrium', 'D. Fiscal policy'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'In economics, what does the term "utility" refer to?',
+        options: ['A. Ability to produce goods and services', 'B. Total revenue earned by a firm', 'C. Satisfaction derived from consuming goods and services', 'D. Level of government expenditure'],
+        correctAnswer: 'C',
+    },
+    {
+        question: 'Which of the following is NOT a function of money?',
+        options: ['A. Medium of exchange', 'B. Store of value', 'C. Producer of goods', 'D. Unit of account'],
+        correctAnswer: 'C',
+    },
+    {
+        question: 'What is the term for a situation where the quantity supplied exceeds the quantity demanded at a given price?',
+        options: ['A. Surplus', 'B. Shortage', 'C. Equilibrium', 'D. Elasticity'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'Which of the following is a measure of the average level of prices in an economy?',
+        options: ['A. Inflation rate', 'B. Gross Domestic Product (GDP)', 'C. Consumer Price Index (CPI)', 'D. Real GDP'],
+        correctAnswer: 'C',
+    },
+    {
+        question: 'What is the term for the increase in the general level of prices in an economy over a period of time?',
+        options: ['A. Deflation', 'B. Stagflation', 'C. Inflation', 'D. Hyperinflation'],
+        correctAnswer: 'C',
+    },
+ {
+        question: 'What is the term for a situation where the government spends more money than it receives in revenue?',
+        options: ['A. Budget surplus', 'B. Budget deficit', 'C. National debt', 'D. Fiscal policy'],
+        correctAnswer: 'B',
+    },
+    {
+        question: 'Which of the following is NOT a characteristic of perfect competition?',
+        options: ['A. Many buyers and sellers', 'B. Identical products', 'C. Barrier to entry', 'D. Price taker'],
+        correctAnswer: 'C',
+    },
+    {
+        question: 'What is the term for the measure of responsiveness of the quantity supplied of a good to a change in its price?',
+        options: ['A. Price elasticity of demand', 'B. Income elasticity of demand', 'C. Price elasticity of supply', 'D. Cross-price elasticity'],
+        correctAnswer: 'C',
+    },
+    {
+        question: 'In economics, what does the term "opportunity cost" represent?',
+        options: ['A. The cost of the next best alternative foregone', 'B. The total cost of production', 'C. The variable cost of production', 'D. The cost of production'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'Which of the following is NOT a component of aggregate demand?',
+        options: ['A. Consumption', 'B. Investment', 'C. Imports', 'D. Government spending'],
+        correctAnswer: 'C',
+    },
+    {
+        question: 'What is the term for the situation where there is a sustained decrease in the general price level of goods and services in an economy?',
+        options: ['A. Inflation', 'B. Hyperinflation', 'C. Deflation', 'D. Stagflation'],
+        correctAnswer: 'C',
+    },
+    {
+        question: 'Which of the following is NOT a tool of monetary policy?',
+        options: ['A. Open market operations', 'B. Reserve requirement', 'C. Discount rate', 'D. Fiscal policy'],
+        correctAnswer: 'D',
+    },
+    {
+        question: 'What does the term "elasticity" measure in economics?',
+        options: ['A. The responsiveness of quantity demanded or supplied to changes in price or income', 'B. The total revenue earned by a firm', 'C. The level of government expenditure', 'D. The difference between social and private costs'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'Which of the following is an example of a public good?',
+        options: ['A. Electricity', 'B. Pizza', 'C. Private jet', 'D. Street lighting'],
+        correctAnswer: 'D',
+    },
+    {
+        question: 'What is the term for the condition where resources are allocated inefficiently, leading to waste or lost potential?',
+        options: ['A. Market failure', 'B. Government intervention', 'C. Production possibility frontier', 'D. Utility maximization'],
+        correctAnswer: 'A',
+    },
+        
         ],
         // Add more questions for Economics...
     
