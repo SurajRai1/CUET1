@@ -381,6 +381,208 @@ const questionsData = {
                 options: ['A. John F. Kennedy', 'B. Lyndon B. Johnson', 'C. Richard Nixon', 'D. Martin Luther King Jr.'],
                 correctAnswer: 'D',
             },
+
+             {
+        question: 'Who was the first President of the United States?',
+        options: ['A. Thomas Jefferson', 'B. George Washington', 'C. Abraham Lincoln', 'D. John Adams'],
+        correctAnswer: 'B',
+    },
+    {
+        question: 'Which war was fought between the North and the South during the 1860s in the United States?',
+        options: ['A. World War I', 'B. Civil War', 'C. Revolutionary War', 'D. War of 1812'],
+        correctAnswer: 'B',
+    },
+    {
+        question: 'Who wrote the Declaration of Independence?',
+        options: ['A. Benjamin Franklin', 'B. Thomas Jefferson', 'C. John Adams', 'D. George Washington'],
+        correctAnswer: 'B',
+    },
+    {
+        question: 'What event marked the beginning of World War I?',
+        options: ['A. Bombing of Pearl Harbor', 'B. Assassination of Archduke Franz Ferdinand', 'C. D-Day Invasion', 'D. Treaty of Versailles'],
+        correctAnswer: 'B',
+    },
+    {
+        question: 'Who was the leader of the Soviet Union during the Cuban Missile Crisis?',
+        options: ['A. Vladimir Putin', 'B. Joseph Stalin', 'C. Nikita Khrushchev', 'D. Mikhail Gorbachev'],
+        correctAnswer: 'C',
+    },
+    {
+        question: 'In what year did Christopher Columbus first reach the Americas?',
+        options: ['A. 1492', 'B. 1607', 'C. 1776', 'D. 1812'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'What was the main cause of the French Revolution?',
+        options: ['A. Economic inequality', 'B. Religious conflicts', 'C. Colonial expansion', 'D. Industrialization'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'Who was the famous nurse during the Crimean War and is considered the founder of modern nursing?',
+        options: ['A. Florence Nightingale', 'B. Clara Barton', 'C. Mary Seacole', 'D. Edith Cavell'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'What was the main goal of the Civil Rights Movement in the United States?',
+        options: ['A. Women\'s suffrage', 'B. Racial equality', 'C. Labor rights', 'D. Environmental protection'],
+        correctAnswer: 'B',
+    },
+    {
+        question: 'Which U.S. president delivered the famous "I Have a Dream" speech during the March on Washington for Jobs and Freedom?',
+        options: ['A. John F. Kennedy', 'B. Lyndon B. Johnson', 'C. Richard Nixon', 'D. Martin Luther King Jr.'],
+        correctAnswer: 'D',
+    },
+    {
+        question: 'Who was the first female Prime Minister of the United Kingdom?',
+        options: ['A. Margaret Thatcher', 'B. Theresa May', 'C. Indira Gandhi', 'D. Angela Merkel'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'What was the significance of the Battle of Hastings in 1066?',
+        options: ['A. It marked the end of the Hundred Years\' War', 'B. It established Norman control over England', 'C. It led to the signing of the Magna Carta', 'D. It resulted in the founding of the Holy Roman Empire'],
+        correctAnswer: 'B',
+    },
+    {
+        question: 'Who was the first emperor of the Roman Empire?',
+        options: ['A. Julius Caesar', 'B. Augustus', 'C. Constantine', 'D. Nero'],
+        correctAnswer: 'B',
+    },
+    {
+        question: 'What was the name of the ancient Egyptian writing system?',
+        options: ['A. Cuneiform', 'B. Hieroglyphics', 'C. Sanskrit', 'D. Phoenician alphabet'],
+        correctAnswer: 'B',
+    },
+    {
+        question: 'Who was the longest-reigning monarch in British history?',
+        options: ['A. Queen Elizabeth I', 'B. Queen Victoria', 'C. King George III', 'D. King Henry VIII'],
+        correctAnswer: 'B',
+    },
+    {
+        question: 'What was the name of the ship on which Charles Darwin sailed during his voyage to the Galápagos Islands?',
+        options: ['A. Endeavour', 'B. Beagle', 'C. Mayflower', 'D. Discovery'],
+        correctAnswer: 'B',
+    },
+    {
+        question: 'Who was the leader of the Bolshevik Revolution in Russia?',
+        options: ['A. Joseph Stalin', 'B. Vladimir Lenin', 'C. Leon Trotsky', 'D. Nicholas II'],
+        correctAnswer: 'B',
+    },
+    {
+        question: 'What was the name of the treaty that ended World War I?',
+        options: ['A. Treaty of Versailles', 'B. Treaty of Paris', 'C. Treaty of Trianon', 'D. Treaty of Brest-Litovsk'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'What was the name of the infamous wall that divided East and West Berlin during the Cold War?',
+        options: ['A. Iron Curtain', 'B. Berlin Wall', 'C. Great Wall of China', 'D. Hadrian\'s Wall'],
+        correctAnswer: 'B',
+    },
+    {
+        question: 'Who was the first African-American to serve as President of the United States?',
+        options: ['A. Barack Obama', 'B. Martin Luther King Jr.', 'C. Malcolm X', 'D. Jesse Jackson'],
+        correctAnswer: 'A',
+    },
+            {
+        question: 'Who was the first woman to win a Nobel Prize?',
+        options: ['A. Marie Curie', 'B. Mother Teresa', 'C. Rosa Parks', 'D. Amelia Earhart'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'Which ancient civilization built the pyramids?',
+        options: ['A. Mesopotamia', 'B. Ancient Greece', 'C. Ancient Egypt', 'D. Maya Civilization'],
+        correctAnswer: 'C',
+    },
+    {
+        question: 'Who was the first European explorer to reach India by sea?',
+        options: ['A. Christopher Columbus', 'B. Vasco da Gama', 'C. Ferdinand Magellan', 'D. Marco Polo'],
+        correctAnswer: 'B',
+    },
+    {
+        question: 'Who was the first female Prime Minister of India?',
+        options: ['A. Sonia Gandhi', 'B. Margaret Thatcher', 'C. Golda Meir', 'D. Indira Gandhi'],
+        correctAnswer: 'D',
+    },
+    {
+        question: 'What was the main goal of the Renaissance?',
+        options: ['A. Political stability', 'B. Religious reform', 'C. Cultural revival', 'D. Industrial advancement'],
+        correctAnswer: 'C',
+    },
+    {
+        question: 'What was the name of the ship that carried the Pilgrims to America in 1620?',
+        options: ['A. Santa Maria', 'B. Mayflower', 'C. Discovery', 'D. Titanic'],
+        correctAnswer: 'B',
+    },
+    {
+        question: 'Who was the first female pilot to fly solo across the Atlantic Ocean?',
+        options: ['A. Amelia Earhart', 'B. Bessie Coleman', 'C. Harriet Quimby', 'D. Jacqueline Cochran'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'Which ancient civilization developed the first known writing system?',
+        options: ['A. Ancient Egypt', 'B. Ancient Greece', 'C. Sumerians', 'D. Ancient China'],
+        correctAnswer: 'C',
+    },
+    {
+        question: 'Who was the leader of the Allied forces during World War II?',
+        options: ['A. Winston Churchill', 'B. Joseph Stalin', 'C. Franklin D. Roosevelt', 'D. Dwight D. Eisenhower'],
+        correctAnswer: 'D',
+    },
+    {
+        question: 'What was the name of the ship that sank after hitting an iceberg in 1912?',
+        options: ['A. Britannic', 'B. Lusitania', 'C. Titanic', 'D. Queen Mary'],
+        correctAnswer: 'C',
+    },
+    {
+        question: 'Which country was the first to grant women the right to vote?',
+        options: ['A. United States', 'B. New Zealand', 'C. United Kingdom', 'D. Australia'],
+        correctAnswer: 'B',
+    },
+    {
+        question: 'What was the main purpose of the Berlin Conference of 1884-1885?',
+        options: ['A. To discuss trade agreements', 'B. To address climate change', 'C. To divide Africa among European powers', 'D. To negotiate peace treaties'],
+        correctAnswer: 'C',
+    },
+    {
+        question: 'Who was the first woman to fly solo nonstop across the Atlantic?',
+        options: ['A. Amelia Earhart', 'B. Bessie Coleman', 'C. Harriet Quimby', 'D. Jacqueline Cochran'],
+        correctAnswer: 'D',
+    },
+    {
+        question: 'Which ancient civilization built the city of Machu Picchu?',
+        options: ['A. Aztecs', 'B. Incas', 'C. Mayans', 'D. Egyptians'],
+        correctAnswer: 'B',
+    },
+    {
+        question: 'What was the name of the treaty that ended the American Revolutionary War?',
+        options: ['A. Treaty of Versailles', 'B. Treaty of Paris', 'C. Treaty of Independence', 'D. Treaty of Philadelphia'],
+        correctAnswer: 'B',
+    },
+    {
+        question: 'Who was the first European explorer to reach the Americas?',
+        options: ['A. Christopher Columbus', 'B. Ferdinand Magellan', 'C. Vasco da Gama', 'D. Marco Polo'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'Which ancient civilization built the Great Wall of China?',
+        options: ['A. Han Dynasty', 'B. Qin Dynasty', 'C. Ming Dynasty', 'D. Zhou Dynasty'],
+        correctAnswer: 'C',
+    },
+    {
+        question: 'Who was the first woman to be awarded the Nobel Prize in Literature?',
+        options: ['A. Virginia Woolf', 'B. Toni Morrison', 'C. Pearl S. Buck', 'D. Selma Lagerlöf'],
+        correctAnswer: 'D',
+    },
+    {
+        question: 'What was the main cause of the War of 1812 between the United States and Britain?',
+        options: ['A. British impressment of American sailors', 'B. American annexation of Canada', 'C. American support for France', 'D. British blockade of American ports'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'Who was the first President of the United States to be impeached?',
+        options: ['A. Richard Nixon', 'B. Andrew Johnson', 'C. Bill Clinton', 'D. Abraham Lincoln'],
+        correctAnswer: 'B',
+    },
+            
         ],
         // Add more questions for History...
     
@@ -435,6 +637,207 @@ const questionsData = {
                 options: ['A. Emily Dickinson', 'B. Edgar Allan Poe', 'C. Walt Whitman', 'D. Robert Frost'],
                 correctAnswer: 'B',
             },
+
+             {
+        question: 'Who wrote the novel "To Kill a Mockingbird"?',
+        options: ['A. Harper Lee', 'B. J.D. Salinger', 'C. F. Scott Fitzgerald', 'D. William Faulkner'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'What is the literary term for a comparison using "like" or "as"?',
+        options: ['A. Metaphor', 'B. Simile', 'C. Personification', 'D. Hyperbole'],
+        correctAnswer: 'B',
+    },
+    {
+        question: 'What literary device is used to give human characteristics to non-human things?',
+        options: ['A. Metaphor', 'B. Simile', 'C. Personification', 'D. Alliteration'],
+        correctAnswer: 'C',
+    },
+    {
+        question: 'Who wrote the poem "The Waste Land"?',
+        options: ['A. T.S. Eliot', 'B. William Wordsworth', 'C. Robert Frost', 'D. Emily Dickinson'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'What literary term refers to the emotional atmosphere of a piece of writing?',
+        options: ['A. Theme', 'B. Mood', 'C. Tone', 'D. Setting'],
+        correctAnswer: 'B',
+    },
+    {
+        question: 'Who wrote the play "Hamlet"?',
+        options: ['A. William Shakespeare', 'B. Arthur Miller', 'C. Tennessee Williams', 'D. Henrik Ibsen'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'What is the term for the repetition of consonant sounds at the beginning of words?',
+        options: ['A. Assonance', 'B. Consonance', 'C. Alliteration', 'D. Onomatopoeia'],
+        correctAnswer: 'C',
+    },
+    {
+        question: 'Who wrote the novel "1984"?',
+        options: ['A. George Orwell', 'B. Aldous Huxley', 'C. Franz Kafka', 'D. Ray Bradbury'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'What is the term for the perspective from which a story is told?',
+        options: ['A. Setting', 'B. Theme', 'C. Point of View', 'D. Conflict'],
+        correctAnswer: 'C',
+    },
+    {
+        question: 'Who is known for writing "The Canterbury Tales"?',
+        options: ['A. Geoffrey Chaucer', 'B. William Shakespeare', 'C. John Milton', 'D. Edmund Spenser'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'What is the term for a brief reference to a person, event, or place in literature?',
+        options: ['A. Allusion', 'B. Foreshadowing', 'C. Flashback', 'D. Symbolism'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'Which Shakespearean play features the character Othello?',
+        options: ['A. Othello', 'B. Hamlet', 'C. Macbeth', 'D. Romeo and Juliet'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'What is the term for the use of words to create a picture in the reader’s mind?',
+        options: ['A. Simile', 'B. Metaphor', 'C. Imagery', 'D. Symbolism'],
+        correctAnswer: 'C',
+    },
+    {
+        question: 'Who wrote the poem "The Raven"?',
+        options: ['A. Edgar Allan Poe', 'B. Emily Dickinson', 'C. Walt Whitman', 'D. Robert Frost'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'What literary term refers to the sequence of events in a story?',
+        options: ['A. Theme', 'B. Plot', 'C. Characterization', 'D. Conflict'],
+        correctAnswer: 'B',
+    },
+    {
+        question: 'Who is the author of the novel "Pride and Prejudice"?',
+        options: ['A. Jane Austen', 'B. Charlotte Brontë', 'C. Emily Brontë', 'D. Charles Dickens'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'What is the term for the feeling of uncertainty or anxiety about the outcome of events in a literary work?',
+        options: ['A. Suspense', 'B. Irony', 'C. Foreshadowing', 'D. Symbolism'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'Who wrote the play "Romeo and Juliet"?',
+        options: ['A. William Shakespeare', 'B. Arthur Miller', 'C. Tennessee Williams', 'D. Henrik Ibsen'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'What literary term refers to the use of words to create sound effects?',
+        options: ['A. Rhyme', 'B. Meter', 'C. Alliteration', 'D. Onomatopoeia'],
+        correctAnswer: 'D',
+    },
+    {
+        question: 'Who wrote the novel "Moby-Dick"?',
+        options: ['A. Herman Melville', 'B. Mark Twain', 'C. Nathaniel Hawthorne', 'D. Ralph Waldo Emerson'],
+        correctAnswer: 'A',
+    },
+             {
+        question: 'Who wrote the novel "The Catcher in the Rye"?',
+        options: ['A. J.D. Salinger', 'B. F. Scott Fitzgerald', 'C. Ernest Hemingway', 'D. Harper Lee'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'What literary term refers to the use of exaggeration for emphasis or effect?',
+        options: ['A. Hyperbole', 'B. Irony', 'C. Metaphor', 'D. Simile'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'What is the term for a word that imitates the sound it represents?',
+        options: ['A. Onomatopoeia', 'B. Alliteration', 'C. Assonance', 'D. Consonance'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'Who wrote the play "Death of a Salesman"?',
+        options: ['A. Arthur Miller', 'B. Tennessee Williams', 'C. Eugene O\'Neill', 'D. David Mamet'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'What literary term refers to the use of hints or clues to suggest what will happen later in a story?',
+        options: ['A. Foreshadowing', 'B. Symbolism', 'C. Imagery', 'D. Allegory'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'Who wrote the poem "The Road Not Taken"?',
+        options: ['A. Robert Frost', 'B. Emily Dickinson', 'C. Langston Hughes', 'D. Walt Whitman'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'What is the term for the central message or lesson of a literary work?',
+        options: ['A. Theme', 'B. Mood', 'C. Tone', 'D. Plot'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'Who wrote the novel "Brave New World"?',
+        options: ['A. Aldous Huxley', 'B. George Orwell', 'C. Ray Bradbury', 'D. H.G. Wells'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'What literary device is used to create a contrast between appearance and reality?',
+        options: ['A. Irony', 'B. Foreshadowing', 'C. Symbolism', 'D. Allegory'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'Who is known for writing "The Scarlet Letter"?',
+        options: ['A. Nathaniel Hawthorne', 'B. Mark Twain', 'C. Herman Melville', 'D. Edgar Allan Poe'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'What is the term for the use of humor, irony, or ridicule to criticize or mock people, society, or institutions?',
+        options: ['A. Satire', 'B. Parody', 'C. Irony', 'D. Sarcasm'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'Who wrote the play "A Streetcar Named Desire"?',
+        options: ['A. Tennessee Williams', 'B. Arthur Miller', 'C. Eugene O\'Neill', 'D. Edward Albee'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'What literary term refers to the feeling created in the reader by a literary work?',
+        options: ['A. Mood', 'B. Theme', 'C. Tone', 'D. Setting'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'Who wrote the novel "The Grapes of Wrath"?',
+        options: ['A. John Steinbeck', 'B. Ernest Hemingway', 'C. F. Scott Fitzgerald', 'D. William Faulkner'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'What is the term for the use of symbols to represent ideas or concepts in literature?',
+        options: ['A. Symbolism', 'B. Allegory', 'C. Irony', 'D. Foreshadowing'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'Who wrote the poem "Howl"?',
+        options: ['A. Allen Ginsberg', 'B. T.S. Eliot', 'C. Langston Hughes', 'D. Sylvia Plath'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'What literary term refers to the repetition of vowel sounds in nearby words?',
+        options: ['A. Assonance', 'B. Consonance', 'C. Alliteration', 'D. Onomatopoeia'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'Who wrote the novel "Beloved"?',
+        options: ['A. Toni Morrison', 'B. Maya Angelou', 'C. Zora Neale Hurston', 'D. Alice Walker'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'What is the term for the use of language to convey sensory experiences?',
+        options: ['A. Imagery', 'B. Simile', 'C. Metaphor', 'D. Personification'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'Who wrote the play "The Importance of Being Earnest"?',
+        options: ['A. Oscar Wilde', 'B. George Bernard Shaw', 'C. Henrik Ibsen', 'D. Samuel Beckett'],
+        correctAnswer: 'A',
+    },
         ],
         // Add more questions for English...
     
@@ -489,6 +892,207 @@ const questionsData = {
                 options: ['A. Economic cooperation', 'B. Social media regulation', 'C. International peace and cooperation', 'D. Space exploration'],
                 correctAnswer: 'C',
             },
+
+            {
+        question: 'Who coined the term "political science"?',
+        options: ['A. Aristotle', 'B. Machiavelli', 'C. Plato', 'D. Herodotus'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'Which document outlines the fundamental rights and freedoms of citizens in the United States?',
+        options: ['A. Constitution', 'B. Bill of Rights', 'C. Magna Carta', 'D. Declaration of Independence'],
+        correctAnswer: 'B',
+    },
+    {
+        question: 'What is the primary function of the executive branch of government?',
+        options: ['A. Enforcing laws', 'B. Making laws', 'C. Interpreting laws', 'D. Conducting elections'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'What is the term for a system of government in which power is held by the people, who rule either directly or through elected representatives?',
+        options: ['A. Democracy', 'B. Autocracy', 'C. Oligarchy', 'D. Theocracy'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'Who is considered the "Father of Modern Political Science"?',
+        options: ['A. Niccolò Machiavelli', 'B. Aristotle', 'C. Jean-Jacques Rousseau', 'D. John Locke'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'What is the term for the process by which citizens vote to elect representatives to make decisions on their behalf?',
+        options: ['A. Representative democracy', 'B. Direct democracy', 'C. Oligarchy', 'D. Autocracy'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'Which principle divides governmental powers between the national government and state governments?',
+        options: ['A. Federalism', 'B. Unitarism', 'C. Totalitarianism', 'D. Authoritarianism'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'Who is the current Secretary-General of the United Nations?',
+        options: ['A. António Guterres', 'B. Ban Ki-moon', 'C. Kofi Annan', 'D. Boutros Boutros-Ghali'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'What is the term for a group of states or countries with a central authority?',
+        options: ['A. Confederation', 'B. Federation', 'C. Monarchy', 'D. Aristocracy'],
+        correctAnswer: 'B',
+    },
+    {
+        question: 'Who wrote the political treatise "The Leviathan"?',
+        options: ['A. Thomas Hobbes', 'B. John Locke', 'C. Jean-Jacques Rousseau', 'D. Montesquieu'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'What is the primary function of the judicial branch of government?',
+        options: ['A. Enforcing laws', 'B. Making laws', 'C. Interpreting laws', 'D. Conducting elections'],
+        correctAnswer: 'C',
+    },
+    {
+        question: 'Which principle holds that no person is above the law, including government officials?',
+        options: ['A. Rule of law', 'B. Due process', 'C. Separation of powers', 'D. Checks and balances'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'What is the term for a form of government in which power is vested in a single individual or small group?',
+        options: ['A. Autocracy', 'B. Democracy', 'C. Oligarchy', 'D. Anarchy'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'Which amendment to the U.S. Constitution guarantees freedom of speech, religion, and the press?',
+        options: ['A. First Amendment', 'B. Second Amendment', 'C. Fourth Amendment', 'D. Fifth Amendment'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'Who wrote the book "The Republic," which discusses justice and the ideal state?',
+        options: ['A. Plato', 'B. Aristotle', 'C. Socrates', 'D. Xenophon'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'What is the term for a system of government in which a single ruler has unlimited power and authority?',
+        options: ['A. Autocracy', 'B. Democracy', 'C. Oligarchy', 'D. Republic'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'Who wrote the influential work "Two Treatises of Government"?',
+        options: ['A. John Locke', 'B. Thomas Hobbes', 'C. Jean-Jacques Rousseau', 'D. Niccolò Machiavelli'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'What is the term for a system of government in which power is concentrated in the hands of a few people or a small group?',
+        options: ['A. Oligarchy', 'B. Democracy', 'C. Autocracy', 'D. Theocracy'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'Who was the primary author of the Federalist Papers, advocating for the ratification of the U.S. Constitution?',
+        options: ['A. Alexander Hamilton', 'B. James Madison', 'C. John Jay', 'D. Thomas Jefferson'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'What is the term for the process by which a citizen can propose a new law or amendment to the constitution through a direct vote?',
+        options: ['A. Initiative', 'B. Referendum', 'C. Recall', 'D. Plebiscite'],
+        correctAnswer: 'A',
+    },
+            {
+        question: 'What is the term for a government ruled by a king or queen?',
+        options: ['A. Monarchy', 'B. Oligarchy', 'C. Autocracy', 'D. Republic'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'Who is considered the "Father of Modern Liberalism"?',
+        options: ['A. John Locke', 'B. Thomas Hobbes', 'C. Jean-Jacques Rousseau', 'D. Montesquieu'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'What is the primary function of the legislative branch of government?',
+        options: ['A. Enforcing laws', 'B. Making laws', 'C. Interpreting laws', 'D. Conducting elections'],
+        correctAnswer: 'B',
+    },
+    {
+        question: 'Which type of government is characterized by a division of powers between a central government and regional governments?',
+        options: ['A. Federalism', 'B. Unitarism', 'C. Totalitarianism', 'D. Authoritarianism'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'What is the term for a system of government in which power is concentrated in the hands of a single ruler?',
+        options: ['A. Autocracy', 'B. Democracy', 'C. Oligarchy', 'D. Republic'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'Who was the first woman appointed to the U.S. Supreme Court?',
+        options: ['A. Sandra Day O\'Connor', 'B. Ruth Bader Ginsburg', 'C. Sonia Sotomayor', 'D. Elena Kagan'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'What is the term for a system of government in which power is held by the people, who rule either directly or through elected representatives?',
+        options: ['A. Democracy', 'B. Autocracy', 'C. Oligarchy', 'D. Theocracy'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'Who wrote the political treatise "The Social Contract"?',
+        options: ['A. Jean-Jacques Rousseau', 'B. Thomas Hobbes', 'C. John Locke', 'D. Montesquieu'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'What is the term for a form of government in which power is vested in a hereditary ruling class or nobility?',
+        options: ['A. Aristocracy', 'B. Oligarchy', 'C. Democracy', 'D. Autocracy'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'Which branch of government has the power to declare war?',
+        options: ['A. Legislative', 'B. Executive', 'C. Judicial', 'D. All branches'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'What is the term for the process by which citizens can remove an elected official from office before their term expires?',
+        options: ['A. Recall', 'B. Referendum', 'C. Initiative', 'D. Plebiscite'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'Who is the current President of Russia?',
+        options: ['A. Vladimir Putin', 'B. Dmitry Medvedev', 'C. Boris Yeltsin', 'D. Mikhail Gorbachev'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'Which amendment to the U.S. Constitution guarantees the right to bear arms?',
+        options: ['A. Second Amendment', 'B. First Amendment', 'C. Third Amendment', 'D. Fourth Amendment'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'What is the term for a system of government in which power is concentrated in the hands of a small group of wealthy individuals or families?',
+        options: ['A. Plutocracy', 'B. Oligarchy', 'C. Democracy', 'D. Autocracy'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'Who was the first Secretary-General of the United Nations?',
+        options: ['A. Trygve Lie', 'B. Dag Hammarskjöld', 'C. Kofi Annan', 'D. Ban Ki-moon'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'Which amendment to the U.S. Constitution abolished slavery?',
+        options: ['A. Thirteenth Amendment', 'B. Fourteenth Amendment', 'C. Fifteenth Amendment', 'D. Sixteenth Amendment'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'Who was the longest-serving President of the United States?',
+        options: ['A. Franklin D. Roosevelt', 'B. George Washington', 'C. Abraham Lincoln', 'D. Thomas Jefferson'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'What is the term for a system of government in which power is vested in a religious leader or religious institution?',
+        options: ['A. Theocracy', 'B. Democracy', 'C. Oligarchy', 'D. Autocracy'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'Who was the first woman to run for President of the United States from a major political party?',
+        options: ['A. Hillary Clinton', 'B. Geraldine Ferraro', 'C. Shirley Chisholm', 'D. Sarah Palin'],
+        correctAnswer: 'B',
+    },
+    {
+        question: 'Which principle ensures that no one branch of government becomes too powerful?',
+        options: ['A. Separation of powers', 'B. Checks and balances', 'C. Rule of law', 'D. Due process'],
+        correctAnswer: 'B',
+    },
         ],
         // Add more questions for Political Science...
     
@@ -544,6 +1148,207 @@ const questionsData = {
         question: 'Which sociologist is known for his work on the theory of social capital?',
         options: ['A. Karl Marx', 'B. Pierre Bourdieu', 'C. Max Weber', 'D. Michel Foucault'],
         correctAnswer: 'B',
+    },
+
+             {
+        question: 'What is the term for the ability to understand and share the feelings of another?',
+        options: ['A. Empathy', 'B. Sympathy', 'C. Compassion', 'D. Altruism'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'Which sociological perspective focuses on how society is structured to maintain stability and order?',
+        options: ['A. Functionalism', 'B. Conflict Theory', 'C. Symbolic Interactionism', 'D. Feminist Theory'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'What is the term for a system of beliefs, values, and practices shared by a group of people?',
+        options: ['A. Culture', 'B. Society', 'C. Tradition', 'D. Religion'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'Who is known for his theory of social stratification, which includes the concepts of class, status, and power?',
+        options: ['A. Karl Marx', 'B. Max Weber', 'C. Émile Durkheim', 'D. Georg Simmel'],
+        correctAnswer: 'B',
+    },
+    {
+        question: 'What is the term for the process by which individuals learn the norms, values, and behaviors of a society?',
+        options: ['A. Socialization', 'B. Assimilation', 'C. Integration', 'D. Acculturation'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'Who coined the term "sociology" and is often regarded as the founder of sociology?',
+        options: ['A. Auguste Comte', 'B. Émile Durkheim', 'C. Karl Marx', 'D. Max Weber'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'What is the term for the process by which individuals or groups are excluded from full participation in society?',
+        options: ['A. Social Exclusion', 'B. Social Segregation', 'C. Social Stratification', 'D. Social Stigma'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'Which sociological perspective focuses on the ways in which individuals interact through shared symbols and meanings?',
+        options: ['A. Symbolic Interactionism', 'B. Functionalism', 'C. Conflict Theory', 'D. Feminist Theory'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'Who is known for his study "Suicide," which examined the social causes of suicide?',
+        options: ['A. Émile Durkheim', 'B. Karl Marx', 'C. Max Weber', 'D. Georg Simmel'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'What is the term for a system of ranked social categories based on unequal access to resources and opportunities?',
+        options: ['A. Social Stratification', 'B. Social Hierarchy', 'C. Social Differentiation', 'D. Social Mobility'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'Which sociologist is known for his work on the concept of the "looking-glass self"?',
+        options: ['A. Charles Cooley', 'B. George Herbert Mead', 'C. Erving Goffman', 'D. W.E.B. Du Bois'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'What is the term for the process by which cultures become more similar to one another?',
+        options: ['A. Cultural Assimilation', 'B. Cultural Diffusion', 'C. Cultural Homogenization', 'D. Cultural Integration'],
+        correctAnswer: 'B',
+    },
+    {
+        question: 'Who is known for her work on the intersection of race, class, and gender, particularly in relation to feminism?',
+        options: ['A. Patricia Hill Collins', 'B. Simone de Beauvoir', 'C. Betty Friedan', 'D. bell hooks'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'What is the term for the study of how individuals and groups make decisions to allocate resources?',
+        options: ['A. Economics', 'B. Anthropology', 'C. Sociology', 'D. Political Science'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'Which sociologist introduced the concept of the "iron cage" of rationality in modern society?',
+        options: ['A. Karl Marx', 'B. Max Weber', 'C. Émile Durkheim', 'D. Georg Simmel'],
+        correctAnswer: 'B',
+    },
+    {
+        question: 'What is the term for a sudden and widespread outbreak of a disease within a specific population or geographical area?',
+        options: ['A. Epidemic', 'B. Pandemic', 'C. Outbreak', 'D. Plague'],
+        correctAnswer: 'B',
+    },
+    {
+        question: 'Which sociologist is known for his theory of social action, which emphasizes subjective meanings and interpretations?',
+        options: ['A. Max Weber', 'B. Émile Durkheim', 'C. Karl Marx', 'D. Georg Simmel'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'What is the term for the belief in and promotion of the inherent worth of every individual?',
+        options: ['A. Individualism', 'B. Collectivism', 'C. Humanism', 'D. Altruism'],
+        correctAnswer: 'C',
+    },
+    {
+        question: 'Who is known for her work on the concept of the "feminine mystique," which highlighted the dissatisfaction of women in traditional gender roles?',
+        options: ['A. Betty Friedan', 'B. Simone de Beauvoir', 'C. bell hooks', 'D. Patricia Hill Collins'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'What is the term for the systematic study of human society and social behavior?',
+        options: ['A. Sociology', 'B. Psychology', 'C. Anthropology', 'D. Economics'],
+        correctAnswer: 'A',
+    },
+              {
+        question: 'What term describes a society in which cultural diversity is promoted and respected?',
+        options: ['A. Multiculturalism', 'B. Assimilation', 'C. Ethnocentrism', 'D. Xenophobia'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'Who coined the term "sociological imagination"?',
+        options: ['A. Karl Marx', 'B. Max Weber', 'C. Émile Durkheim', 'D. C. Wright Mills'],
+        correctAnswer: 'D',
+    },
+    {
+        question: 'Which sociological perspective emphasizes the role of power and coercion in society?',
+        options: ['A. Conflict Theory', 'B. Functionalism', 'C. Symbolic Interactionism', 'D. Feminist Theory'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'What is the term for the process by which individuals or groups are ranked in society?',
+        options: ['A. Social Stratification', 'B. Socialization', 'C. Social Integration', 'D. Social Mobility'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'Who is known for his theory of the "McDonaldization" of society?',
+        options: ['A. Max Weber', 'B. Karl Marx', 'C. George Ritzer', 'D. Émile Durkheim'],
+        correctAnswer: 'C',
+    },
+    {
+        question: 'What is the term for the spreading of cultural traits from one society to another?',
+        options: ['A. Cultural Diffusion', 'B. Cultural Relativism', 'C. Cultural Integration', 'D. Cultural Assimilation'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'Which sociologist introduced the concept of the "iron cage"?',
+        options: ['A. Karl Marx', 'B. Max Weber', 'C. Émile Durkheim', 'D. Georg Simmel'],
+        correctAnswer: 'B',
+    },
+    {
+        question: 'What is the term for the process by which individuals or groups are excluded from society?',
+        options: ['A. Social Isolation', 'B. Social Segregation', 'C. Social Exclusion', 'D. Social Alienation'],
+        correctAnswer: 'C',
+    },
+    {
+        question: 'Who developed the theory of "dramaturgy," which views social life as a series of performances?',
+        options: ['A. Erving Goffman', 'B. Émile Durkheim', 'C. Max Weber', 'D. Karl Marx'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'What is the term for the process by which individuals adopt the cultural traits of a dominant group?',
+        options: ['A. Cultural Assimilation', 'B. Cultural Relativism', 'C. Cultural Appropriation', 'D. Cultural Pluralism'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'Which sociologist is known for his work on the "culture of poverty"?',
+        options: ['A. Oscar Lewis', 'B. Karl Marx', 'C. Max Weber', 'D. Émile Durkheim'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'What is the term for the tendency to view one’s own culture as superior to others?',
+        options: ['A. Ethnocentrism', 'B. Cultural Relativism', 'C. Multiculturalism', 'D. Xenophobia'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'Who coined the term "the feminine mystique"?',
+        options: ['A. Betty Friedan', 'B. Simone de Beauvoir', 'C. bell hooks', 'D. Patricia Hill Collins'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'What is the term for a group of individuals who share a common culture and identity?',
+        options: ['A. Ethnicity', 'B. Community', 'C. Tribe', 'D. Nation'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'Who is known for his study of "primary" and "secondary" groups in sociology?',
+        options: ['A. Charles Cooley', 'B. George Herbert Mead', 'C. Georg Simmel', 'D. Herbert Spencer'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'What is the term for a set of cultural beliefs and practices that help to maintain social control over behavior?',
+        options: ['A. Norms', 'B. Values', 'C. Folkways', 'D. Social Control'],
+        correctAnswer: 'D',
+    },
+    {
+        question: 'Who is known for his work on the theory of "social capital"?',
+        options: ['A. Pierre Bourdieu', 'B. Émile Durkheim', 'C. Karl Marx', 'D. Max Weber'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'What is the term for the idea that social phenomena should be studied objectively and without bias?',
+        options: ['A. Objectivism', 'B. Positivism', 'C. Subjectivism', 'D. Relativism'],
+        correctAnswer: 'B',
+    },
+    {
+        question: 'Who is known for his study of "anomie" and its effects on society?',
+        options: ['A. Émile Durkheim', 'B. Karl Marx', 'C. Max Weber', 'D. Georg Simmel'],
+        correctAnswer: 'A',
+    },
+    {
+        question: 'What is the term for a system of social stratification based on birth or ascribed status?',
+        options: ['A. Caste System', 'B. Class System', 'C. Meritocracy', 'D. Plutocracy'],
+        correctAnswer: 'A',
     },
 ],
     // Add more questions for Sociology...
