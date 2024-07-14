@@ -1,56 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam Performance Report</title>
     <link rel="stylesheet" href="../css/performance.css" />
-    <title>Exam Performance</title>
-  </head>
-  <body>
-    <div class="container">
-      <header>
-      <center>
-        <h1>Exam Performance Report</h1>
-      </center>
-      </header>
-
-      <section class="score-section">
-        <table >
-            <tr>
-                <th colspan="2">Scores</th>
-            </tr>
-            <tr>
-                <td >Overall Percentage</td>
-                <td  id="percentage">--</td>
-            </tr>
-            <tr>
-                <td  >Correct Answers</td>
-                <td id="correct">--</td>
-            </tr>
-            <tr>
-              <td >Accuracy</td>
-              <td id="accuracy">--</td>
-          </tr>
-          <table>
-            <tr>
-              <th>Attempted</td>
-              <th>Skipped/Unanswered</td>
-              <th >Total Questions</td>
-          </tr>
-          <tr>
-              <td id="attempted"></td>
-              <td id="unattempted"></td>
-              <td id="totalQuestion"></td>
-          </tr>
-          </table>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js"></script>
+</head>
+<body>
+    <div class="container animate__animated animate__fadeIn">
+        <header>
+            <h1 class="animate__animated animate__bounceInDown">Exam Performance Report</h1>
+        </header>
+        <main>
+            <section class="score-section animate__animated animate__zoomIn">
+                <h2>Overall Score</h2>
+                <div class="score-circle">
+                    <span id="percentage">--</span>
+                </div>
+            </section>
+            <section class="details-section">
+                <div class="detail-item animate__animated animate__fadeInLeft">
+                    <h3>Correct Answers</h3>
+                    <span id="correct">--</span>
+                </div>
+                <div class="detail-item animate__animated animate__fadeInLeft" style="animation-delay: 0.2s;">
+                    <h3>Accuracy</h3>
+                    <span id="accuracy">--</span>
+                </div>
+                <div class="detail-item animate__animated animate__fadeInRight" style="animation-delay: 0.4s;">
+                    <h3>Attempted</h3>
+                    <span id="attempted">--</span>
+                </div>
+                <div class="detail-item animate__animated animate__fadeInRight" style="animation-delay: 0.6s;">
+                    <h3>Skipped/Unanswered</h3>
+                    <span id="unattempted">--</span>
+                </div>
+                <div class="detail-item animate__animated animate__fadeInUp" style="animation-delay: 0.8s;">
+                    <h3>Total Questions</h3>
+                    <span id="totalQuestion">--</span>
+                </div>
+            </section>
             
-        </table>
-    </section>
-    
-
-      <button class="back-button" id="backButton">Back to Home</button>
+        </main>
+        <footer>
+            <button id="backButton" class="btn animate__animated animate__pulse animate__infinite">Back to Home</button>
+        </footer>
     </div>
-
     <script src="../js/performance.js"></script>
-  </body>
+</body>
 </html>
